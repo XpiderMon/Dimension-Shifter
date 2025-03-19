@@ -1,0 +1,17 @@
+name: DimensionShifter
+version: '1.0'
+main: me.mejbha.dimensionShifter.DimensionShifter
+api-version: '1.13'
+authors: [ Mejbha ]
+description: Randomly warp players between dimensions with special effects!
+depend: [Multiverse-Core, Essentials]
+commands:
+  ds:
+    description: Reload the config
+    usage: /ds reload
+    permission: dimensionShifter.admin
+permissions:
+  dimensionShifter.admin:
+    description: Allows reloading the config
+    default: op
+

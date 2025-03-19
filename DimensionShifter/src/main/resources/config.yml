@@ -1,0 +1,49 @@
+# Configuration for DimensionShifter
+
+#---------------------------------------------------------------------------------#
+#                                ░█▀▄▀█ █▀▀█ █▀▀▄ █▀▀ 　 █▀▀▄ █──█
+#                                ░█░█░█ █▄▄█ █──█ █▀▀ 　 █▀▀▄ █▄▄█
+#                                ░█──░█ ▀──▀ ▀▀▀─ ▀▀▀ 　 ▀▀▀─ ▄▄▄█
+#
+#                   ███╗░░░███╗███████╗░░░░░██╗██████╗░██╗░░██╗░█████╗░
+#                   ████╗░████║██╔════╝░░░░░██║██╔══██╗██║░░██║██╔══██╗
+#                   ██╔████╔██║█████╗░░░░░░░██║██████╦╝███████║███████║
+#                   ██║╚██╔╝██║██╔══╝░░██╗░░██║██╔══██╗██╔══██║██╔══██║
+#                   ██║░╚═╝░██║███████╗╚█████╔╝██████╦╝██║░░██║██║░░██║
+#                   ╚═╝░░░░░╚═╝╚══════╝░╚════╝░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝
+#----------------------------------------------------------------------------------#
+#
+#                       DISCORD : https://discord.gg/czUy2sjNVV
+#
+#----------------------------------------------------------------------------------#
+#                 ░█──░█ █▀▀ █▀▀█ █▀▀ ─▀─ █▀▀█ █▀▀▄ 　 ▄ 　 ▄█─ ─ █▀▀█
+#                 ─░█░█─ █▀▀ █▄▄▀ ▀▀█ ▀█▀ █──█ █──█ 　 ─ 　 ─█─ ▄ █▄▀█
+#                 ──▀▄▀─ ▀▀▀ ▀─▀▀ ▀▀▀ ▀▀▀ ▀▀▀▀ ▀──▀ 　 ▀ 　 ▄█▄ █ █▄▄█
+#----------------------------------------------------------------------------------#
+# Version : 1.0
+# author  : Mejbha
+# Default world where players respawn if no bed spawnpoint is set
+default-respawn-world: world
+
+# List of worlds that players can be teleported to (Multiverse-Core supported)
+allowed-worlds:
+  - world
+  - world_nether
+  - world_the_end
+ #- (world_name) - ( custom_world example of multi world )
+
+# Random teleport range (in blocks)
+teleport-range: 1000
+
+# Time between random warps (in seconds)
+warp-interval: 600
+
+# Chance to teleport a player (0-100) - 100 means guaranteed teleport
+warp-chance: 50
+
+# Warning settings before teleporting
+warning:
+  enabled: true   # Set to false to disable countdown
+  countdown: 5
+  message: "&aWarning! Dimension shift in &e%time% &aseconds!"
+  final-message: "&dTeleporting now!"
